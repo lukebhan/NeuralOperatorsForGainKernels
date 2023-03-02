@@ -1,6 +1,6 @@
 # Neural Operators for Bypassing Gain and Control Computations in PDE Backstepping
 
-The source code for the paper titled Neural Operators for Bypassing Gain and Control Computations in PDE Backstepping (TODO: add arxiv link).
+The source code for the paper titled Neural Operators for Bypassing Gain and Control Computations in PDE Backstepping ([arxiv](https://arxiv.org/abs/2302.14265)).
 
 ## Sysetm Requirements
 All of the code is written in Python 3 and relies on standard packages such as numpy, Pytorch, Scipy, and the 
@@ -31,7 +31,18 @@ Otherwise uncomment the code labeled in the notebook. To generate high-resolutio
 Please see the comments inside the notebook. 
 
 ## Cite this work
-TODO
+```
+@misc{https://doi.org/10.48550/arxiv.2302.14265,
+  doi = {10.48550/ARXIV.2302.14265},
+  url = {https://arxiv.org/abs/2302.14265},
+  author = {Bhan, Luke and Shi, Yuanyuan and Krstic, Miroslav},
+  keywords = {Systems and Control (eess.SY), Optimization and Control (math.OC), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Mathematics, FOS: Mathematics},
+  title = {Neural Operators for Bypassing Gain and Control Computations in PDE Backstepping},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
 
 ## Questions
 Feel free to leave any questions in the issues of Github or email the author Luke at lbhan@ucsd.edu
