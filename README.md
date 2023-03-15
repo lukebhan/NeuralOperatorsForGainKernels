@@ -12,36 +12,12 @@ import statements in the Jupyter-notebooks to make sure all files are included.
 ## Demos
 
 ### Dataset and Models
-All precomputed datasets and models are available here [Google Drive](https://drive.google.com/drive/folders/1n75jsadVMV8L0ju5C4yypayVHAlBLY6o?usp=sharing)
+All precomputed datasets and models are available here [Google Drive](https://drive.google.com/drive/folders/1EYg1eequk02SnkhTmBAk6_yFO158f9d6?usp=sharing)
 
-### Learning mapping $\beta$ to $k$
-- Please see the jupyter-notebook in the folder titled `betaToK`
-- This model will only take a few minutes to generate the dataset and train. However, we still provide the data and model in the Drive folder above. To generate your
-own datasets, please uncomment the labeled code in the notebook.
 
-### Learning mapping $\beta$, $u$ to $U$
-- Please see the jupyter-notebook in the folder titled `betauToU`
-- This model will take only around 10 minutes for the dataset generation and around 20 minutes to train. Feel free to use the data and model given in the Drive folder above. 
-Otherwise uncomment the code labeled in the notebook
-
-### Learning mapping $f(x, y)$ to $k(x, y)$
-- Please see the jupyter-notebook in the folder titled `fToK`
-- This model will take around 15 minutes for the dataset generation and around 5 minutes to train. Feel free to use the data and model given in the Drive folder above. 
-Otherwise uncomment the code labeled in the notebook. To generate high-resolution figures as in the paper, it will take around a half-hour to solve the kernel and PDE. 
-Please see the comments inside the notebook. 
-
-## Cite this work
+## Cite this work TODO
 ```
-@misc{https://doi.org/10.48550/arxiv.2302.14265,
-  doi = {10.48550/ARXIV.2302.14265},
-  url = {https://arxiv.org/abs/2302.14265},
-  author = {Bhan, Luke and Shi, Yuanyuan and Krstic, Miroslav},
-  keywords = {Systems and Control (eess.SY), Optimization and Control (math.OC), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Mathematics, FOS: Mathematics},
-  title = {Neural Operators for Bypassing Gain and Control Computations in PDE Backstepping},
-  publisher = {arXiv},
-  year = {2023},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+
 ```
 
 ## Questions
